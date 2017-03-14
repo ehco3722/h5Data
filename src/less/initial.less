@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.section {
+    position: relative;
+    background: url('../img/background2.png');
+}
+.section:first-child {
+    background: url('../img/background1.png');
+}
+
+@keyframes shake {
+    0% {
+        transform: rotateZ(0deg)
+    }
+    10% {
+        transform: rotateZ(-4deg)
+    }
+    20% {
+        transform: rotateZ(-2deg)
+    }
+    30% {
+        transform: rotateZ(2deg)
+    }
+    40% {
+        transform: rotateZ(-4deg)
+    }
+    50% {
+        transform: rotateZ(1deg)
+    }
+    60% {
+        transform: rotateZ(-4deg)
+    }
+    70% {
+        transform: rotateZ(2deg)
+    }
+    80% {
+        transform: rotateZ(-2deg)
+    }
+    90% {
+        transform: rotateZ(-4deg)
+    }
+    100% {
+        transform: rotateZ(0deg)
+    }
+}
+
+.shake {
+    animation: shake 3s ease-in infinite 1s;
+}
+
+
+@keyframes up {
+    50% {
+        top: 50px
+    }
+}
+
+.up {
+    animation: up 1.5s infinite ease;
+}

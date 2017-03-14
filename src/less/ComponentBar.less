@@ -1,0 +1,61 @@
+.ComponentBar {
+    .itemWrapper {
+        height: 25px;
+        margin-top: 20px;
+        line-height: 25px;
+        text-align: center;
+        .name {
+            float: left;
+            width: 40px;
+            height: 25px;
+            margin-right: 10px;
+        }
+        .loadWrapper {
+            float: left;
+            height: 25px;
+            margin-right: 10px;
+            .loadInner {
+                width: 0%;
+                opacity: 0;
+                height: 25px;
+                border-radius: 8%;
+                transition: all 1s ease-in-out;
+            }
+        }
+        .percent {
+            float: left;
+            height: 25px;
+            opacity: 0;
+            transition: all 1s ease-in-out 1s;
+        }
+    }
+}
+
+.load {
+    .itemWrapper {
+        .loadWrapper {
+            .loadInner {
+                width: 100%;
+                opacity: 1;
+            }
+        }
+        .percent {
+            opacity: 1;
+        }
+    }
+}
+
+
+.leave {
+    .itemWrapper {
+        .loadWrapper {
+            .loadInner {
+                width: 0%;
+                opacity: 0;
+            }
+        }
+        .percent {
+            opacity: 0;
+        }
+    }
+}
