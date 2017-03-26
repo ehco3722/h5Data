@@ -45,7 +45,7 @@ let ComponentPieFactory = (config) => {
         let y = Math.abs( trueR * Math.sin(aAngle - (sAngle + (eAngle - sAngle) / 2 ) ) );
 
         let oText = $('<div/>').addClass('text').css('position', 'absolute').text(ele[0]);
-console.log(x);
+// console.log(x);
         if (textAngle >= 1.5 * Math.PI && textAngle < 2.5 * Math.PI) {
             oText.css({left: trueR + x});//右面
         }else if (textAngle >= 2.5 * Math.PI && textAngle <= 3.5 * Math.PI) {

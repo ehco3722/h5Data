@@ -32,11 +32,11 @@ let ComponentPolyLineFactory = (config) => {
     oContext.stroke();
 
     let oTrueWidth = config.width / 2 / (config.data.length + 1);
-    console.log(oTrueWidth)
+    // console.log(oTrueWidth)
     Data.forEach((ele, index) => {
         let oText = $('<div/>').addClass('text');    
         let x = oTrueWidth * (index + 1);
-        console.log();
+        // console.log();
         oText.text(ele[0]).css({position: 'absolute', left: x, bottom: -20, width: oTrueWidth, marginLeft: -oTrueWidth / 2, textAlign: 'center'});
 
         Component.append(oText);
