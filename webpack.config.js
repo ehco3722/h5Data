@@ -8,6 +8,7 @@ module.exports = {
         publicPath: 'http://localhost:8090/out/',
         filename: '[name].js'
     },
+    
     module: {
         loaders: [
             {test: /.js$/, loader: 'babel-loader'},

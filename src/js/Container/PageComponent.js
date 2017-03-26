@@ -16,7 +16,7 @@ let manage = {
         this.Container.append(this.page);
         this.page.append( this.addComponent({
             height: 40,
-            text: '黑龙江大学家属区 web coffee',
+            text: '哈尔滨理工大学',
             css: {
                 position: 'absolute',
                 left: 0,

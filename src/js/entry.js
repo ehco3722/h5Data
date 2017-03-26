@@ -16,8 +16,8 @@ Manage
         .addPage('onePage')
             .addComponent({
                type: 'base',
-               width: 428,
-               height: 92,
+               width: 360,
+               height: 118,
                center: true,
                css: {
                    top: 0,
@@ -25,7 +25,7 @@ Manage
                    backgroundImage: "url('./src/img/logoIndex.png')"
                },
                animateIn: {
-                   top: 120,
+                   top: 94,
                    opacity: 1,
                },
                animateOut: {
@@ -150,7 +150,7 @@ Manage
                 width: 522,
                 height: 336,
                 center: true,
-                text: '渡一教育创立于2015年！ 在成哥 邓哥 彤哥的带领下已经向着高端编程教育公司大踏步的，渡一 Dream Factory, 渡一 web coffee 与今年正式成立 争取明年上市',
+                text: '随着时代的发展 ,前端开发的大潮已经来袭! 赶快行动起来加入我们吧,让青春不留遗憾, 占领行业制高点, 未来web前端开发的主动权就在你手中。',
                 css: {
                     position: 'absolute',
                     bottom: 150,
@@ -437,7 +437,7 @@ Manage
         .addComponent({
             type: 'base',
             width: 428,
-            height: 92,
+            height: 132,
             name: 'shake',
             center: true,
             css: {
@@ -446,7 +446,7 @@ Manage
                 backgroundImage: "url('./src/img/logo.png')"
             },
             animateIn: {
-                top: 250,
+                top: 200,
                 opacity: 1,
             },
             animateOut: {

@@ -1,15 +1,19 @@
 {
-  "name": "duyi",
+  "name": "dev",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "duyi": "webpack-dev-server --progress --colors --devtool sourcemap"
+    "dev": "webpack-dev-server --progress --colors --devtool sourcemap"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "async": "^2.2.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "css-loader": "^0.27.3",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "less": "^2.7.2",
