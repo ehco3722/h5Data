@@ -5,7 +5,8 @@ module.exports = {
     entry: {index: './src/js/entry.js'},
     output: {
         path: './out/',
-        publicPath: 'http://localhost:8090/out/',
+        publicPath: './out/',
+        // publicPath: 'http://localhost:8090/out/',
         filename: '[name].js'
     },
     
